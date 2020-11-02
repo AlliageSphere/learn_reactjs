@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {ASButton} from './components/ASButton';
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+		
+		<ASButton/>
       </header>
     </div>
   );
