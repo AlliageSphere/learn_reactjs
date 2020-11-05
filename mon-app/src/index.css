@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul
+{
+	list-style: none;
+	font-size: 25px;
+	background: white;
+	width: 950px;
+	margin: 6px 0px;
+	padding: 20px;
+	text-align: left;
+	box-shadow: 5px 5px 5px black;
+}
+
+
+.fade-in
+{
+	animation: FadeIn ease 0.5s;
+}
+
+@keyframes fadeIn{
+	0% {opacity: 0; transform: scale(.7, .7)}
+	100% {opacity: 1;}
+}
+
+@keyframes fadeOut{
+	0% {opacity: 1; transform: scale(.0, .0)}
+	100% {opacity: 0;}

@@ -1,15 +1,15 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import "./css/default.css";
-
-import {ASButton} from './components/ASButton';
+import { FormWrapper } from './components/forms';
 
 function App() {
+
+  
   return (
-    <div className="App">
-		<body>
-			<ASButton/>
-		</body>
+    <div className="container">
+      <h1>Formulaire</h1>
+      <FormWrapper />
     </div>
   );
 }
